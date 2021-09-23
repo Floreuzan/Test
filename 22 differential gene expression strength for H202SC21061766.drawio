@@ -1,176 +1,197 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T15:40:37.093Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="xWvTtVaz82gVQ_lpSFX0" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-23T15:55:32.157Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="f23ll6coeYSJhyJs-Bno" version="15.2.9" type="github">
   <diagram id="U4IgkTdNpWTFuwFA2swD" name="Page-1">
     <mxGraphModel dx="1006" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-1" value="experiment_id&lt;br&gt;analysis_dir" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-1" value="experiment_id&lt;br&gt;analysis_dir" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-2" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tLHDV8wwJgTuE7Va9RZO-1" target="tLHDV8wwJgTuE7Va9RZO-3">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-2" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="tLHDV8wwJgTuE7Va9RZO-1" target="tLHDV8wwJgTuE7Va9RZO-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="150" as="sourcePoint" />
             <mxPoint x="270" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-3" value="create path for the input files and create path and folder for the output figures" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-3" value="create path for the input files and create path and folder for the output figures" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="70" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-4" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tLHDV8wwJgTuE7Va9RZO-3" target="tLHDV8wwJgTuE7Va9RZO-5">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-4" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tLHDV8wwJgTuE7Va9RZO-3" target="tLHDV8wwJgTuE7Va9RZO-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="370" as="sourcePoint" />
             <mxPoint x="430" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-5" value="path for inputs and outputs files" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-5" value="path for inputs and outputs files" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tLHDV8wwJgTuE7Va9RZO-5" target="tLHDV8wwJgTuE7Va9RZO-7">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="tLHDV8wwJgTuE7Va9RZO-5" target="tLHDV8wwJgTuE7Va9RZO-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="370" as="sourcePoint" />
             <mxPoint x="650" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-7" value="parser.parser() on 3 input files" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-7" value="parser.parser() on 3 input files" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="70" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-8" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tLHDV8wwJgTuE7Va9RZO-7" target="tLHDV8wwJgTuE7Va9RZO-9">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-8" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="tLHDV8wwJgTuE7Va9RZO-7" target="tLHDV8wwJgTuE7Va9RZO-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="360" as="sourcePoint" />
             <mxPoint x="530" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-9" value="-&amp;nbsp;g_logFc&lt;br&gt;-&amp;nbsp;g_adjPVal&lt;br&gt;-&amp;nbsp;g_pVal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-9" value="-&amp;nbsp;g_logFc&lt;br&gt;-&amp;nbsp;g_adjPVal&lt;br&gt;-&amp;nbsp;g_pVal" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-10" value="g_pVal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-10" value="g_pVal" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-11" value="for each treatment,&lt;br&gt;add a trace of the p-value against the fraction of the genes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-11" value="for each treatment,&lt;br&gt;add a trace of the p-value against the fraction of the genes" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="210" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-12" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tLHDV8wwJgTuE7Va9RZO-10" target="tLHDV8wwJgTuE7Va9RZO-11">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-12" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tLHDV8wwJgTuE7Va9RZO-10" target="tLHDV8wwJgTuE7Va9RZO-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="360" as="sourcePoint" />
             <mxPoint x="450" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-13" value="Graph: distribution p-values per treatment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-13" value="Graph: distribution p-values per treatment" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-14" value="" style="endArrow=classic;html=1;entryX=0.006;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tLHDV8wwJgTuE7Va9RZO-11" target="tLHDV8wwJgTuE7Va9RZO-13">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-14" value="" style="endArrow=classic;html=1;entryX=0.006;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="tLHDV8wwJgTuE7Va9RZO-11" target="tLHDV8wwJgTuE7Va9RZO-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="400" as="sourcePoint" />
             <mxPoint x="450" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-15" value="g_logFc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-15" value="g_logFc" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-16" value="for each treatment" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-16" value="for each treatment" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="330" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-17" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tLHDV8wwJgTuE7Va9RZO-15" target="tLHDV8wwJgTuE7Va9RZO-16">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-17" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tLHDV8wwJgTuE7Va9RZO-15" target="tLHDV8wwJgTuE7Va9RZO-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="340" as="sourcePoint" />
             <mxPoint x="450" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-18" value="strength_df - table of calculation of dge strength for each treatments" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tUvA7MmogW0Fkp_yMYfX-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tLHDV8wwJgTuE7Va9RZO-18" target="tUvA7MmogW0Fkp_yMYfX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-18" value="strength_df - table of calculation of dge strength for each treatments" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-19" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tLHDV8wwJgTuE7Va9RZO-16" target="tLHDV8wwJgTuE7Va9RZO-18">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-19" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tLHDV8wwJgTuE7Va9RZO-16" target="tLHDV8wwJgTuE7Va9RZO-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="310" as="sourcePoint" />
             <mxPoint x="450" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-20" value="&lt;span&gt;for each treatment,&lt;/span&gt;&lt;br&gt;&lt;span&gt;plot the DGE sign strengths ordered by abs FC&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-20" value="&lt;span&gt;for each treatment,&lt;/span&gt;&lt;br&gt;&lt;span&gt;plot the DGE sign strengths ordered by abs FC&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="570" y="250" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-21" value="&lt;span&gt;Graph: barplots of strength per treatment ordered by abs FC&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-21" value="&lt;span&gt;Graph: barplots of strength per treatment ordered by abs FC&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="730" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-22" value="" style="endArrow=classic;html=1;exitX=0.997;exitY=0.628;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.028;entryY=0.613;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tLHDV8wwJgTuE7Va9RZO-18" target="tLHDV8wwJgTuE7Va9RZO-20">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-22" value="" style="endArrow=classic;html=1;exitX=0.997;exitY=0.628;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.028;entryY=0.613;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tLHDV8wwJgTuE7Va9RZO-18" target="tLHDV8wwJgTuE7Va9RZO-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="310" as="sourcePoint" />
             <mxPoint x="450" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-23" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tLHDV8wwJgTuE7Va9RZO-20" target="tLHDV8wwJgTuE7Va9RZO-21">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-23" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="tLHDV8wwJgTuE7Va9RZO-20" target="tLHDV8wwJgTuE7Va9RZO-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="310" as="sourcePoint" />
             <mxPoint x="450" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-24" value="for each treatment,&lt;br&gt;plot the DGE sign strengths ordered by time" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="590" y="340" width="120" height="80" as="geometry" />
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-24" value="for each treatment,&lt;br&gt;plot the DGE sign strengths ordered by time" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="580" y="340" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-25" value="&lt;span&gt;Graph: barplots of strength per treatment ordered by time&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-25" value="&lt;span&gt;Graph: barplots of strength per treatment ordered by time&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="750" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-26" value="" style="endArrow=classic;html=1;exitX=1.008;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.621;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tLHDV8wwJgTuE7Va9RZO-18" target="tLHDV8wwJgTuE7Va9RZO-24">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-26" value="" style="endArrow=classic;html=1;exitX=1.008;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.621;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tLHDV8wwJgTuE7Va9RZO-18" target="tLHDV8wwJgTuE7Va9RZO-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="680" y="510" as="sourcePoint" />
             <mxPoint x="730" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-27" value="" style="endArrow=classic;html=1;entryX=-0.006;entryY=0.628;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.033;exitY=0.604;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tLHDV8wwJgTuE7Va9RZO-24" target="tLHDV8wwJgTuE7Va9RZO-25">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-27" value="" style="endArrow=classic;html=1;entryX=-0.006;entryY=0.628;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.033;exitY=0.604;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="tLHDV8wwJgTuE7Va9RZO-24" target="tLHDV8wwJgTuE7Va9RZO-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="690" y="520" as="sourcePoint" />
             <mxPoint x="740" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-28" value="histogram of logFC values" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-28" value="histogram of logFC values" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="590" y="460" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-29" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="tLHDV8wwJgTuE7Va9RZO-18" target="tLHDV8wwJgTuE7Va9RZO-28">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-29" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="tLHDV8wwJgTuE7Va9RZO-18" target="tLHDV8wwJgTuE7Va9RZO-28" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="560" as="sourcePoint" />
             <mxPoint x="530" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-30" value="&lt;span&gt;histograms of logFC values&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-30" value="&lt;span&gt;histograms of logFC values per treatment&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="770" y="470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-31" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="tLHDV8wwJgTuE7Va9RZO-28" target="tLHDV8wwJgTuE7Va9RZO-30">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-31" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="tLHDV8wwJgTuE7Va9RZO-28" target="tLHDV8wwJgTuE7Va9RZO-30" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="400" as="sourcePoint" />
             <mxPoint x="500" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-32" value="histogram of significant genes" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-32" value="histogram of significant genes" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="590" y="570" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-33" value="histogram of significant genes" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-33" value="histogram of significant genes" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="600" y="670" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-34" value="histograms of significant values per&lt;br&gt;??" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-34" value="histograms of significant genes per&lt;br&gt;??" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="770" y="590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-35" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.017;entryY=0.621;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tLHDV8wwJgTuE7Va9RZO-18" target="tLHDV8wwJgTuE7Va9RZO-32">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-35" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.017;entryY=0.621;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tLHDV8wwJgTuE7Va9RZO-18" target="tLHDV8wwJgTuE7Va9RZO-32" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="630" as="sourcePoint" />
             <mxPoint x="500" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-36" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tLHDV8wwJgTuE7Va9RZO-18" target="tLHDV8wwJgTuE7Va9RZO-33">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-36" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tLHDV8wwJgTuE7Va9RZO-18" target="tLHDV8wwJgTuE7Va9RZO-33" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="630" as="sourcePoint" />
             <mxPoint x="500" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-37" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="tLHDV8wwJgTuE7Va9RZO-32" target="tLHDV8wwJgTuE7Va9RZO-34">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-37" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="tLHDV8wwJgTuE7Va9RZO-32" target="tLHDV8wwJgTuE7Va9RZO-34" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="630" as="sourcePoint" />
             <mxPoint x="500" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tLHDV8wwJgTuE7Va9RZO-38" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="tLHDV8wwJgTuE7Va9RZO-33">
+        <mxCell id="tLHDV8wwJgTuE7Va9RZO-38" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="tLHDV8wwJgTuE7Va9RZO-33" edge="1" target="tUvA7MmogW0Fkp_yMYfX-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="630" as="sourcePoint" />
             <mxPoint x="790" y="720" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tUvA7MmogW0Fkp_yMYfX-1" value="histogram of significant genes per treatment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="800" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tUvA7MmogW0Fkp_yMYfX-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tUvA7MmogW0Fkp_yMYfX-2" target="tUvA7MmogW0Fkp_yMYfX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tUvA7MmogW0Fkp_yMYfX-2" value="for each treatment, create list of count and list of logFC values" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tUvA7MmogW0Fkp_yMYfX-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tUvA7MmogW0Fkp_yMYfX-4" target="tUvA7MmogW0Fkp_yMYfX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tUvA7MmogW0Fkp_yMYfX-4" value="hist_df&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tUvA7MmogW0Fkp_yMYfX-6" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="670" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
